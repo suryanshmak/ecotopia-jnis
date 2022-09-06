@@ -7,9 +7,9 @@ const Home: NextPage = () => {
         src="https://cdn.glitch.me/f4ab509c-c620-4191-a564-9180fafa0867%2FEcotopia%20old%20trailer.mp4?v=1636652484324"
         className="w-full h-full object-cover absolute top-0 left-0 -z-10"
         controls={false}
-        autoPlay
-        loop
-        muted
+        autoPlay={true}
+        loop={true}
+        muted={true}
       />
       <div className="h-screen">
         <div className="h-full flex items-center justify-center text-[#1c1c1c]">
